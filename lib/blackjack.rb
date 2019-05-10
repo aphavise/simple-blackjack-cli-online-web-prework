@@ -9,7 +9,7 @@ end
 
 def display_card_total(x)
   # code #display_card_total here
-  puts "#{x}"
+  puts "Cars = #{x}"
 end
 
 def prompt_user
