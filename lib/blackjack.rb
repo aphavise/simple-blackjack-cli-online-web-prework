@@ -35,18 +35,12 @@ def initial_round
 end
 
 def hit?
-  # code hit? here
   def hit?(card_total)
-  # part 1
   prompt_user
   user_input = get_user_input
-  
-  # parts 2, 3, and 4
   if user_input == "h"
-    # this is the last line that will execute if the user types 'h', both dealing another card and returning the card total
     card_total += deal_card
   elsif user_input == "s"
-    # this is the last line that will execute if the user types 's', simply returning the card total without dealing another card
     card_total
   end
 end
