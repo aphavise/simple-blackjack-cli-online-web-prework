@@ -47,10 +47,7 @@ end
 def invalid_command
   # code invalid_command here
     puts "Sorry, not a valid command"
-  
-  # again, here's one of our handy helper methods!
   get_user_input
-  
 end
 
 #####################################################
